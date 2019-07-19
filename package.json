@@ -1,0 +1,35 @@
+{
+  "name": "@ant-design/aliyun-theme",
+  "version": "0.0.1",
+  "description": "Ant Design Theme for Aliyun console",
+  "main": "index.js",
+  "module": "index.js",
+  "homepage": "https://github.com/ant-design/ant-design-aliyun-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant-design/ant-design-aliyun-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ant-design/ant-design-aliyun-theme/issues"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "prepublishOnly": "npm run tsc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "prettier --write '**/*.ts'",
+    "test": "npm run lint && npm run tsc"
+  },
+  "author": "afc163 <afc163@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "typescript": "^3.4.2"
+  }
+}
