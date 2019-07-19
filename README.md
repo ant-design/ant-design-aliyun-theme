@@ -9,7 +9,7 @@
 [![Dependencies](https://img.shields.io/david/ant-design/ant-design-aliyun-theme.svg?style=flat-square)](https://david-dm.org/ant-design/ant-design-aliyun-theme)
 [![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design-aliyun-theme.svg?style=flat-square)](https://david-dm.org/ant-design/ant-design-aliyun-theme?type=dev)
 
-Dark theme [variables](https://github.com/ant-design/ant-design-aliyun-theme/blob/master/index.ts) of Ant Design.
+Ant Design theme [variables](https://github.com/ant-design/ant-design-aliyun-theme/blob/master/index.ts) for Aliyun console design.
 
 > Still being experimental, welcome to try out and help us to improve it.
 
@@ -26,13 +26,13 @@ $ npm install @ant-design/aliyun-theme
 ## Usage
 
 ```js
-import darkTheme from '@ant-design/aliyun-theme';
+import aliyunTheme from '@ant-design/aliyun-theme';
 
 // webpack.config.js: less-loader
 {
   loader: 'less-loader',
   options: {
-    modifyVars: darkTheme,
+    modifyVars: aliyunTheme,
   },
 },
 ```
