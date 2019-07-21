@@ -25,6 +25,8 @@ $ npm install @ant-design/aliyun-theme
 
 ## Usage
 
+### webpack
+
 ```js
 import aliyunTheme from '@ant-design/aliyun-theme';
 
@@ -37,4 +39,23 @@ import aliyunTheme from '@ant-design/aliyun-theme';
 },
 ```
 
-Use in Ant Design Pro: https://github.com/ant-design/ant-design-pro/pull/2946/
+### umi
+
+[https://umijs.org/config/#theme](https://umijs.org/config/#theme)
+
+```js
+import aliyunTheme from '@ant-design/aliyun-theme';
+
+// config.js or .umirc.js
+export default {
+  "theme": aliyunTheme,
+}
+```
+
+> Use in Ant Design Pro: https://github.com/ant-design/ant-design-pro/pull/2946/
+
+### less
+
+```less
+@import "~@ant-design/aliyun-theme/index.less";
+```
