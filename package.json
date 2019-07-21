@@ -14,16 +14,17 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "prepublishOnly": "npm run tsc",
+    "prepublishOnly": "npm run compile",
     "lint": "eslint . --ext .ts",
     "lint:fix": "prettier --write '**/*.ts'",
+    "compile": "npm run tsc && node scripts/generateLess.js",
     "test": "npm run lint && npm run tsc"
   },
   "author": "afc163 <afc163@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^12.6.8",
     "@typescript-eslint/eslint-plugin": "^1.6.0",
     "@typescript-eslint/parser": "^1.6.0",
     "eslint": "^6.0.1",
