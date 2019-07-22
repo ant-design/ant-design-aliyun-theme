@@ -34,4 +34,6 @@ index.js
 index.d.ts
 scripts/*.js
 scripts/*.d.ts
+tests/*.js
+tests/*.d.ts
 index.less
