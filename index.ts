@@ -21,9 +21,15 @@ export default {
   '@border-color-base': '#dedede',
   '@border-color-split': '#dedede',
 
+  '@outline-width': 0,
+  '@outline-color': '#737373',
+
   '@input-height-lg': '36px',
   '@input-height-base': '32px',
   '@input-height-sm': '24px',
+  '@input-hover-border-color': '#737373',
+
+  '@form-item-margin-bottom': '16px',
 
   '@btn-default-bg': '#fafafa',
   '@btn-default-border': '#dedede',
