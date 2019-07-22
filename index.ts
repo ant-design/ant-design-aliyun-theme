@@ -4,8 +4,8 @@ export default {
   '@font-size-sm': '12px',
   '@font-size-base': '12px',
   '@primary-color': '#0070cc',
-  '@border-radius-base': 0,
-  '@border-radius-sm': 0,
+  '@border-radius-base': '0',
+  '@border-radius-sm': '0',
 
   '@text-color': 'fade(#000, 65%)',
   '@text-color-secondary': 'fade(#000, 45%)',
@@ -21,7 +21,7 @@ export default {
   '@border-color-base': '#dedede',
   '@border-color-split': '#dedede',
 
-  '@outline-width': 0,
+  '@outline-width': '0',
   '@outline-color': '#737373',
 
   '@input-height-lg': '36px',
@@ -72,7 +72,7 @@ export default {
   '@radio-button-bg': 'transparent',
   '@radio-button-checked-bg': 'transparent',
 
-  '@progress-radius': 0,
+  '@progress-radius': '0',
 
   '@tabs-card-gutter': '-1px',
   '@tabs-card-tab-active-border-top': '2px solid @primary-color',
