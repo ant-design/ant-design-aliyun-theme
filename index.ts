@@ -76,4 +76,6 @@ export default {
 
   '@tabs-card-gutter': '-1px',
   '@tabs-card-tab-active-border-top': '2px solid @primary-color',
+
+  '@layout-body-background': '#fafafa',
 };
