@@ -41,7 +41,7 @@ export default {
 
   '@table-header-bg': '#fafafa',
   '@table-row-hover-bg': '#fafafa',
-  '@table-padding-vertical': '8px',
+  '@table-padding-vertical': '15px',
 
   '@badge-color': '@error-color',
 
