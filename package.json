@@ -39,5 +39,8 @@
     "less": "^3.9.0",
     "prettier": "^1.16.4",
     "typescript": "^3.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
