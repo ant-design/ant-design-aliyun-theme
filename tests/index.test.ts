@@ -12,7 +12,7 @@ describe('ant-design-aliyun-theme', () => {
       .render('', {
         modifyVars: aliyunTheme as Vars,
       })
-      .catch(e => {
+      .catch((e) => {
         console.error(e);
         expect(() => {
           throw e;
