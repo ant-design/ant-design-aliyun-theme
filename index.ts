@@ -4,12 +4,12 @@ export default {
   '@font-size-sm': '12px',
   '@font-size-base': '12px',
   '@primary-color': '#0064C8',
-  '@primary-color-hover': '@primary-7',
   '@border-radius-base': '0',
   '@border-radius-sm': '0',
 
   '@text-color': 'fade(#000, 65%)',
   '@text-color-secondary': 'fade(#000, 45%)',
+  '@heading-color': 'fade(#000, 85%)',
   '@background-color-base': 'hsv(0, 0, 96%)',
 
   '@success-color': '#1e8e3e',
@@ -34,13 +34,13 @@ export default {
 
   '@btn-default-bg': '#fafafa',
   '@btn-default-border': '#dedede',
-  '@btn-danger-color': '#fff',
+  '@btn-danger-color': '#ffffff',
   '@btn-danger-bg': '@error-color',
   '@btn-danger-border': '@error-color',
   '@btn-padding-horizontal-base': '12px',
   '@btn-padding-horizontal-sm': '8px',
   '@btn-padding-horizontal-lg': '16px',
-  
+
   '@switch-color': '@success-color',
 
   '@table-header-bg': '#fafafa',
@@ -89,9 +89,9 @@ export default {
   '@tabs-card-horizontal-padding-lg': '8px 16px',
   '@tabs-card-tab-active-border-top': '2px solid @primary-color',
   '@tabs-hover-color': '@primary-color',
-  '@tabs-title-font-size': '@font-size-lg',
-  
-  '@layout-body-background': '#fafafa',
+  '@tabs-title-font-size': '14px',
+
+  '@layout-body-background': '#ffffff',
   '@layout-sider-background': '#f5f5f5',
 
   '@menu-bg': 'transparent',
@@ -101,26 +101,25 @@ export default {
   '@menu-item-active-border-width': '0',
   '@menu-item-boundary-margin': '0',
   '@menu-item-hover-bg': '#ebebeb',
-  '@menu-item-padding-horizontal': '0',
   '@menu-item-vertical-margin': '0',
-  '@menu-inline-submenu-bg': '@layout-sider-background',
-  
+  '@menu-inline-submenu-bg': '#f5f5f5',
+
   '@page-header-heading-title': '28px',
   '@page-header-padding-breadcrumb': '16px',
 
   '@tooltip-max-width': '500px',
-  '@tooltip-bg': '@component-background',
+  '@tooltip-bg': '#ffffff',
   '@tooltip-color': '@heading-color',
   '@tooltip-arrow-width': '8px',
-  
+
   '@modal-body-padding': '0 24px',
   '@modal-footer-border-width': '0',
   '@modal-confirm-body-padding': '24px',
   '@modal-confirm-title-font-size': '16px',
   '@modal-footer-padding-vertical': '16px',
   '@modal-footer-padding-horizontal': '24px',
-  
-  '@modal-header-border-width':' 0',
+
+  '@modal-header-border-width': '0',
 
   '@select-item-selected-bg': 'rgba(14,146,255,0.05)',
 
@@ -134,4 +133,6 @@ export default {
   '@divider-vertical-gutter': '0',
 
   '@dropdown-selected-bg': 'rgba(14, 146, 255, 0.05)',
+
+  '@body-background': '#f2f3f5',
 };
