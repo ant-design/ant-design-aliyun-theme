@@ -6,9 +6,6 @@
 [![npm package](https://img.shields.io/npm/v/@ant-design/aliyun-theme.svg?style=flat-square)](https://www.npmjs.org/package/@ant-design/aliyun-theme)
 [![NPM downloads](http://img.shields.io/npm/dm/@ant-design/aliyun-theme.svg?style=flat-square)](http://npmjs.com/@ant-design/aliyun-theme)
 
-[![Dependencies](https://img.shields.io/david/ant-design/ant-design-aliyun-theme.svg?style=flat-square)](https://david-dm.org/ant-design/ant-design-aliyun-theme)
-[![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design-aliyun-theme.svg?style=flat-square)](https://david-dm.org/ant-design/ant-design-aliyun-theme?type=dev)
-
 Ant Design theme [variables](https://github.com/ant-design/ant-design-aliyun-theme/blob/master/index.ts) for Aliyun console design.
 
 > Still being experimental, welcome to try out and help us to improve it.
