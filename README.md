@@ -10,7 +10,7 @@ Ant Design theme [variables](https://github.com/ant-design/ant-design-aliyun-the
 
 > Still being experimental, welcome to try out and help us to improve it.
 
-<span>Visit <a href="https://antdtheme.com/aliyun" target="_blank">https://antdtheme.com/aliyun</a> to preview.</span>
+<span>Visit <a href="https://theme.antd.group/aliyun" target="_blank">https://theme.antd.group/aliyun</a> to preview.</span>
 
 ![](https://user-images.githubusercontent.com/507615/61530511-d214d200-aa56-11e9-864d-1e8b8e5fc9b1.png)
 
